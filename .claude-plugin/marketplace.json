@@ -1,0 +1,12 @@
+{
+  "name": "clawd",
+  "owner": { "name": "jialih.lim" },
+  "description": "Clawd, a desktop pet companion for Claude Code",
+  "plugins": [
+    {
+      "name": "clawd",
+      "source": "./",
+      "description": "A desktop pet that reacts to what Claude does and keeps you company while you work"
+    }
+  ]
+}

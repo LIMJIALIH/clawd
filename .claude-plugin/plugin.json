@@ -1,0 +1,11 @@
+{
+  "name": "clawd",
+  "version": "1.0.0",
+  "description": "Clawd, a desktop pet that reacts to what Claude does, tracks your productivity across every terminal and the whole PC, runs pomodoros, reminders and nudges, and levels up as you work",
+  "author": { "name": "jialih.lim" },
+  "homepage": "https://github.com/LIMJIALIH/clawd",
+  "repository": "https://github.com/LIMJIALIH/clawd",
+  "license": "MIT",
+  "keywords": ["desktop-pet", "productivity", "pomodoro", "companion"],
+  "types": "./types/index.d.ts"
+}

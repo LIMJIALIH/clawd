@@ -1,0 +1,24 @@
+{
+  "name": "claude-clawd",
+  "version": "1.0.0",
+  "description": "Clawd, a Claude Code plugin: a desktop pet that reacts to what Claude does, tracks your day, runs pomodoros and nudges, and levels up as you work",
+  "keywords": ["claude-code", "claude-code-plugin", "desktop-pet", "productivity", "pomodoro"],
+  "author": "jialih.lim",
+  "license": "MIT",
+  "homepage": "https://github.com/LIMJIALIH/clawd#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/LIMJIALIH/clawd.git" },
+  "bugs": { "url": "https://github.com/LIMJIALIH/clawd/issues" },
+  "files": [
+    ".claude-plugin/plugin.json",
+    ".claude-plugin/marketplace.json",
+    "hooks/",
+    "pet/",
+    "types/",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "validate": "claude plugin validate .",
+    "test": "claude plugin test .",
+    "typecheck": "tsc -p ."
+  }
+}
